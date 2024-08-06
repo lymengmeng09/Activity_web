@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+bady{
+    background-color: white;
+
+}
+.container{
+    width: 100%;
+    height: 50px;
+    display: flex;position: fixed;
+    left: 0;
+    top: 0;
+}
+.heard_container{
+    color: palevioletred;
+}
+.Logo{
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style:inherit;
+}
+.Logo span{
+    color: palevioletred;
+}
+.text{
+    display:inline;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+a{
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./tulip.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.sectonal{
+    width: 400px;
+    height: 600px;
+    margin-top: 15%;
+    margin-left: 40%;
+    color: black;
+    text-align: center;
+}
+#mengly{
+    color: pink;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+    font-size: 30px;
+}
+.sectonal nav{
+    color: skyblue;
+}
+.buttom{
+    display: flex;
+    margin: 30px;
+}
+#See{
+    padding: 10px;
+    background: pink;
+    margin: 10px;
+    align-items: center;
+}
+#Read{
+    padding: 10px;
+    background: skyblue;
+    margin: 10px;
+    align-items: center;
+}
